@@ -1,0 +1,51 @@
+body {
+  width: 630px;
+  font-size: 20px;
+  font-family: Tahoma;
+  background-image: url("https://c.pxhere.com/photos/87/97/light_nature_sky_sunny_clouds_cloudy_weather_blue-641540.jpg!d");
+}
+
+#title {
+  color: white;
+  border-bottom: solid lightgray 1px;
+  margin-top: 0;
+  background-image: linear-gradient(to right, darkblue, lightskyblue);
+  padding-inline: 20px;
+  padding-block: 5px;
+  font-weight: bold;
+}
+
+#errorsign {
+  display: inline;
+  position: relative;
+  left: 0;
+  margin: 20px;
+  image-rendering: pixelated;
+  filter: drop-shadow(5px 5px grey);
+}
+
+#instruction {
+  display: inline;
+  position: relative;
+  top: -35px;
+  left: -20px;
+  margin: 20px;
+}
+
+.window {
+  background-color: rgb(225, 223, 223);
+  border: solid;
+  border-color: transparent;
+  box-shadow:
+    rgb(62, 62, 62) 3px 3px,
+    white -3px -3px;
+}
+button {
+  margin: 20px;
+  display: block;
+  position: relative;
+  left: 520px;
+  box-shadow:
+    black 3px 3px,
+    white -3px -3px;
+}
